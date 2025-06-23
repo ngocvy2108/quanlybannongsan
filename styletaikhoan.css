@@ -1,0 +1,26 @@
+body {
+    font-family: Arial;
+    background: #f9f9f9;
+    padding: 40px;
+}
+.container {
+    background:linear-gradient(145deg, #b2f7ef, #8ad9f3);
+    padding: 30px;
+    max-width: 500px;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #ccc;
+}
+input, button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+}
+button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+}
+button:hover {
+    background-color: #218838;
+}

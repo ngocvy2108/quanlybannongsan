@@ -1,0 +1,104 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(135deg, #3f9d91, #5a589e);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+div img{
+  width: 150px;
+  height: 150px;
+  margin: 0 auto 15px;
+  border-radius: 50%;
+
+}
+
+.hop-dang-nhap {
+  background: linear-gradient(145deg, #b2f7ef, #8ad9f3);
+  border-radius: 20px;
+  padding: 50px 30px;
+  width: 380px;
+  height:500px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+  text-align: center;
+}
+
+.khung-dai-dien {
+  width: 150px;
+  height: 150px;
+  margin: 0 auto 15px;
+  border-radius: 50%;
+  background: #ffffff66;
+  border: 2px dashed #ffffff99;
+}
+
+h2 {
+  color: #ffffff;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.nhom-o-nhap {
+  margin-bottom: 15px;
+}
+
+.nhom-o-nhap input {
+  width: 95%;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  outline: none;
+  background: #ffffffcc;
+  font-size: 14px;
+}
+
+.nut-dang-nhap {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  background: #427b77;
+  color: white;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.duong-ke {
+  height: 2px;
+  background: #ffffff55;
+  margin: 15px 0;
+  margin-bottom: 20px;
+}
+.lua-chon {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.lua-chon a {
+  color: white;
+  text-decoration: none;
+}
+
+.lua-chon a:hover {
+  text-decoration: underline;
+}
+
+.nutdangky {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.nutdangky a {
+  color: white;
+  text-decoration: none;
+}
+
+.nutdangky a:hover {
+  text-decoration: underline;
+}
